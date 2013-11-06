@@ -1,0 +1,9 @@
+{
+	"hosts": ["server1:9160","server2:9160"],
+	"keyspace": "MY_KEYSPACE",
+	"user": "MY_USERNAME",
+	"password": "MY_PASSWORD",
+	"timeout": 4000,
+	"cqlVersion" : "3.0.0",
+	"hostPoolSize": 10
+}
