@@ -24,6 +24,12 @@ https://npmjs.org/package/http-cache-cassandra
 
 ## Tests & Code Coverage
 
+Install latest:
+
+	git clone https://github.com/godaddy/node-http-cache-cassandra.git
+	cd node-http-cache-cassanra
+	npm install
+
 Rename 'config.json.COPY' to 'config.json' and provide the proper credentials for testing.
 
 	npm test
