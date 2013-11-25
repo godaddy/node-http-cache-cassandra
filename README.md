@@ -21,6 +21,18 @@ https://npmjs.org/package/http-cache
 https://npmjs.org/package/http-cache-cassandra
 
 
+## Create Table
+
+	CREATE TABLE httpCache
+	(
+        host text,
+        path text,
+		cache text,
+		expires bigint,
+		PRIMARY KEY (host, path)
+	);
+
+
 
 ## Tests & Code Coverage
 
